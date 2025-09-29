@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>  
+  <meta charset="uft-8">
+  <title>Veebiproge</title>
+</head>
+<body>
+  <img src="images/vp_banner_2025_TA.jpg" alt="kursuse bänner">
+  <hl>minu veeb</hl>
+  <p>Siin on <a href="https://www.tlu.ee">Tallinna Ülikooli kodilehekülg</a> muide</p>
+  <p>See on mu uus veebilehekülg!!!</p>
+  <p>Olen Marko ja elan Kiilis</p>
+  <hr>
+  <ul>
+		<li><a href="/">Avaleht</a></li>
+	</ul>
+	<hr>
+	<h2><%= heading %></h2>
+	<ul>
+	<% listData.forEach(function(listItem){ %>
+		<li><%= listItem %></li>
+		<% }); %>
+	</ul>
+</body>
+
+</html>
