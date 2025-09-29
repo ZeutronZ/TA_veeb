@@ -1,0 +1,25 @@
+{
+  "name": "ta_veeb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://markorajang@github.com/ZeutronZ/TA_veeb.git"
+  },
+  "keywords": [
+    "express.js"
+  ],
+  "author": "marko rajang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZeutronZ/TA_veeb/issues"
+  },
+  "homepage": "https://github.com/ZeutronZ/TA_veeb#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
